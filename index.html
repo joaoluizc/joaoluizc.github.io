@@ -4,11 +4,31 @@
 <head>
   <meta charset="UTF-8">
   <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
-  <h1 id="title">Resumé - João Luiz Coelho</h1>
-  <h3>Contents</h3>
+  <div id="header-name">
+    <h1 id="title">João Luiz Coelho</h1>
+    <h1>🏳️‍🌈</h1>
+  </div>
+  <div id="header-pic">
+    <img id="profile-pic" class="round-pic" src="/img/perfil5-quadrado.jpeg" width=300px
+      alt="A profile picture of João Luiz Coelho, he is looking to the right, wearing a black t-shirt, sitting in front of a window.">
+    <div id="about-me">
+      <h3 class="h3-title">About me</h3>
+      <p>Hello! 👋🏻 I'm João Luiz. I am brazilian, 25 years old. I was born in Tubarão, Santa Catarina, Brazil, but
+        moved
+        to Florianópolis when I was
+        17. I'm an English teacher 👨🏻‍🏫 and a web developer in training! 🤓 </p>
+    </div>
+  </div>
+
+  <h3 class="h3-title">Contents</h3>
   <ul>
     <li><a href="#title">Title</a></li>
     <li><a href="#profile-pic">Profile picture</a></li>
@@ -17,29 +37,29 @@
     <li><a href="#hard-skills">Hard Skills</a></li>
     <li><a href="#check-out">Check these out!</a></li>
   </ul>
-  <img id="profile-pic" src="/img/perfil5-quadrado.jpeg" width=300px
-    alt="A profile picture of João Luiz Coelho, he is looking to the right, wearing a black t-shirt, sitting in front of a window.">
-  <h3 id="about-me">About me</h3>
-  <p>Hello! 👋🏻 I'm João Luiz. I am brazilian, 25 years old. I was born in Tubarão, Santa Catarina, Brazil, but moved
-    to Florianópolis when I was
-    17. I'm an English teacher 👨🏻‍🏫 and a web developer in training! 🤓 </p>
-  <h3 id="soft-skills">Soft Skills</h3>
-  <ul>
-    <li><b>Communicative</b></li>
-    <li>Organized</li>
-    <li>Proactive</li>
-    <li>Pacient</li>
-    <li>Empathetic</li>
-  </ul>
-  <h3 id="hard-skills">Hard Skills</h3>
-  <ul>
-    <li>HTML</li>
-    <li>JavaScript</li>
-    <li>R</li>
-    <li>JavaScript</li>
-    <li>Python (NLTK)</li>
-  </ul>
-  <h3 id="check-out">Check these out!</h3>
+  <div class="half-half-grid">
+    <div>
+      <h3 class="h3-title" id="soft-skills">Soft Skills</h3>
+      <ul>
+        <li>Communicative</li>
+        <li>Organized</li>
+        <li>Proactive</li>
+        <li>Pacient</li>
+        <li>Empathetic</li>
+      </ul>
+    </div>
+    <div>
+      <h3 class="h3-title" id="hard-skills">Hard Skills</h3>
+      <ul>
+        <li>HTML</li>
+        <li>JavaScript</li>
+        <li>R</li>
+        <li>JavaScript</li>
+        <li>Python (NLTK)</li>
+      </ul>
+    </div>
+  </div>
+  <h3 class="h3-title" id="check-out">Check these out!</h3>
   <ul>
     <li><a href="#profile-pic">Profile picture</a></li>
     <li><a href="https://www.veritasium.com/" target="_blank">Veritasium</a></li>

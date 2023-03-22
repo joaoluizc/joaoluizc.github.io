@@ -1,0 +1,77 @@
+body {
+  background-color: #F2E5D0;
+  font-family: quicksand;
+  line-height: 150%;
+}
+
+.round-pic {
+  border-radius: 100%;
+}
+
+#header-name {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1.7fr 1fr;
+  column-gap: 10px;
+}
+
+#title {
+  text-align: right;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#about-me {
+  float: center;
+  text-align: justify;
+  padding: 15px;
+}
+
+#profile-pic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+}
+
+#header-pic {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 2fr;
+  column-gap: 10px;
+}
+
+.half-half-grid {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 10px;
+}
+
+.h3-title {
+  background-color: #F0CF92;
+  border-radius: 10px;
+  padding: 10px;
+  font-weight: 700;
+  color: #5F5775;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
